@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post an Ad - Woop</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Post an Ad</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="post-ad.html">Post an Ad</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="payment.html">Payment Information</a></li>
+            <li><a href="register.html">Register</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section>
+            <h2>Submit Your Ad</h2>
+            <form action="payment.html" method="post">
+                <label for="title">Ad Title:</label>
+                <input type="text" id="title" name="title" required><br>
+                <label for="description">Description:</label><br>
+                <textarea id="description" name="description" required></textarea><br>
+                <label for="price">Price (in Shillings):</label>
+                <input type="number" id="price" name="price" required><br>
+                <label for="contact">Contact Info:</label>
+                <input type="text" id="contact" name="contact" required><br>
+                <button type="submit">Submit Ad (99 Shillings)</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Woop</p>
+    </footer>
+</body>
+</html>

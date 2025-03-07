@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Information - Woop</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Payment Information</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="post-ad.html">Post an Ad</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="payment.html">Payment Information</a></li>
+            <li><a href="register.html">Register</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section>
+            <h2>Pay for Your Ad</h2>
+            <p>The cost to post an ad is 99 Shillings. You can pay using any credit card.</p>
+            <form action="confirm.html" method="post">
+                <label for="card-number">Credit Card Number:</label>
+                <input type="text" id="card-number" name="card-number" required><br>
+                <label for="expiry-date">Expiry Date:</label>
+                <input type="text" id="expiry-date" name="expiry-date" required><br>
+                <label for="cvv">CVV:</label>
+                <input type="text" id="cvv" name="cvv" required><br>
+                <button type="submit">Pay Now</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Woop</p>
+    </footer>
+</body>
+</html>
